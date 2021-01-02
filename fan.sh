@@ -20,7 +20,7 @@ echo 0 > /sys/class/pwm/pwmchip1/pwm0/duty_cycle
 sleep 5
 echo 49994 > /sys/class/pwm/pwmchip1/pwm0/duty_cycle
 
-declare -a CpuTemps=(75000 63000 58000 52000 48000 0)
+declare -a CpuTemps=(60000 55000 50000 45000 40000 0)
 declare -a PwmDutyCycles=(25000 37000 48300 49250 49300 49994)
 
 while true
